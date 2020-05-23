@@ -25,3 +25,13 @@ print("Total " + str(Q) )
 # Result should look like:
 # Value 5 in power of 3 is 125
 # Value 3 in power of 3 is 27
+
+def calc3(x):
+  qubic = x * x * x
+  return qubic
+
+y = calc3(5)
+print("Value 5 in power of 3 is " + str(y))
+
+z = calc3(3)
+print("Value 3 in power of 3 is " + str(z))
