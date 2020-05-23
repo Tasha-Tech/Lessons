@@ -23,3 +23,27 @@ print("Your grade is " + y)
 
 y = grade1(87)
 print("Your grade is " + y)
+
+def grade2(q):
+  if q <= 60:
+    return "F"
+  
+  if q <= 70:
+    return "D"
+
+  if q <= 80:
+    return "C"
+
+  if q <= 90:
+    return "B"
+
+  return "A"
+
+Z = grade2(51)
+print("Your grade is " + Z)
+
+Z = grade2(88)
+print("Your grade is " + Z)
+
+Z = grade2(92)
+print("Your grade is " + Z)
