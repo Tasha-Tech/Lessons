@@ -77,3 +77,37 @@ print("Your grade is " + y)
 s = 'XYZ'
 y = grade3(s, 87)
 print("Your grade is " + y)
+
+print("==================================")
+
+def grade4(name, grade):
+  score = ""
+
+  if grade > 90:
+    score = "A"
+  elif grade > 80:
+    score = "B"
+  elif grade > 70:
+    score = "C"
+  elif grade > 60:
+    score = "D"
+  else:
+    score = "F"
+
+  print("Student " + name + " " + score)
+  return score
+  
+y = grade4('Honey pie', 82)
+
+y = grade4('YOUyuy', 16)
+
+y = grade4('kuku', 76)
+
+
+
+
+
+
+
+  
+
