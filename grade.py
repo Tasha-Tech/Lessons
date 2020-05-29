@@ -103,6 +103,28 @@ y = grade4('YOUyuy', 16)
 
 y = grade4('kuku', 76)
 
+def grade5(name, grade):
+  score = ""
+
+  if grade > 90:
+    score = "A"
+  elif grade > 80:
+    score = "B"
+  elif grade > 70:
+    score = "C"
+  elif grade > 60:
+    score = "D"
+  else:
+    score = "F"
+
+  print("Student " + name + " " + score + " (" + str(grade) + ")")
+  return score
+  
+y = grade5('Honey pie', 82)
+
+y = grade5('YOUyuy', 16)
+
+y = grade5('kuku', 76)
 
 
 
