@@ -125,11 +125,3 @@ y = grade5('Honey pie', 82)
 y = grade5('YOUyuy', 16)
 
 y = grade5('kuku', 76)
-
-
-
-
-
-
-  
-
